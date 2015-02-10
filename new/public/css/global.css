@@ -387,7 +387,7 @@ footer .spacer {
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .menu-icon {
-  position: absolute;
+  position: fixed;
   width: 30px;
   height: 36px;
   margin: 40px 36px 0 0;
@@ -486,7 +486,7 @@ footer .spacer {
 }
 .menu-wrapper .menu-content a,
 .menu-wrapper .menu-content a:hover {
-  text-decoration: none;
+  text-decoration: grey;
 }
 .menu-wrapper .menu-content ul.sections {
   list-style: none;
@@ -746,7 +746,7 @@ footer .spacer {
 .modal-gallery .frame .bx-wrapper .bx-viewport .slide {
   width: 100%;
   height: 100%;
-  background: #eee center center no-repeat;
+  background: center center no-repeat;
   background-size: cover;
   -ms-behavior: url("/css/backgroundsize.min.htc");
 }
@@ -1978,4 +1978,9 @@ section.contact .category .item p.keywords {
     -ms-transform: scale(0.4, 0.4);
     transform: scale(0.4, 0.4);
   }
+}
+
+.photo-caption .photo-full .gallery .video
+.photos{
+  padding-bottom: 10%;
 }
